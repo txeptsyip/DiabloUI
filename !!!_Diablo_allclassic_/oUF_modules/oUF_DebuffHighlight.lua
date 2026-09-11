@@ -33,6 +33,7 @@ local function GetDebuffType(unit, filter)
 	end
 end
 
+
 local function Update(self, event, unit)
 	if(self.unit ~= unit) then return end
 
@@ -58,6 +59,27 @@ local function Update(self, event, unit)
 		element:Hide()
 	end
 end
+-- local function Update(self, event, unit)
+-- 	if(self.unit ~= unit) then return end
+
+-- 	local element = self.DebuffHighlight
+-- 	local debuffType = GetDebuffType(unit, element.Filter)
+-- 	if debuffType then
+-- 		local color = oUF.colors.debuff[debuffType]
+-- 		if element:IsObjectType('Texture') then
+-- 			element:SetVertexColor(color.r, color.g, color.b)
+-- 		else
+-- 			element:SetBackdropBorderColor(color.r, color.g, color.b)
+-- 		end
+-- 		element:Show()
+-- 	else
+-- 		element:Hide()
+-- 	end
+-- end
+
+
+
+
 
 local function Enable(self)
 	local element = self.DebuffHighlight
