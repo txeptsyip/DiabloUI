@@ -1,0 +1,9 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+
+ <Script file='lib.lua'/>
+
+ <Script file='player.lua'/>
+ <Script file='pet.lua'/>
+ <Script file='pettarget.lua'/>
+
+</Ui>

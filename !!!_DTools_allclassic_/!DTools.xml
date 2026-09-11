@@ -1,0 +1,27 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+
+    <Script file="Localization.lua"/>
+
+    <Script file="Config.lua"/>
+
+    <Script file="ActionBars.lua"/>
+    <Script file="ActionTheme.lua"/>
+    <Script file="CastingBar.lua"/>
+    <Script file="InfoString.lua"/>
+    <Script file="Other.lua"/>
+    <Script file="Modules.lua"/>
+    <!-- <Script file="RaidManager.lua"/> -->
+    <Script file="SetAddon.lua"/>
+    <Script file="SetCVar.lua"/>
+    <Script file="ToolTips.lua"/>
+    <Script file="UISet.lua"/>
+    <Script file="UnitFrames.lua"/>
+
+    <Include file="Chat\Chat.xml"/>
+    <Include file="CombatIndicator\CombatIndicator.xml"/>
+
+    <Script file="FrameMover.lua"/>
+
+    <Script file="Compatibility.lua"/>
+
+</Ui>

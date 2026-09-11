@@ -1,0 +1,8 @@
+﻿## Interface: 80200
+## Title: CombatIndicator
+## Notes: |cffbc8f8fShow damage in screen when you are in combat.|r
+## Notes-zhCN: |cff00ff00CombatIndicator|r|n|cffbc8f8f当你进行战斗时会在身边跳出你所受伤害的数字。|r
+## Notes-zhTW: |cff00ff00CombatIndicator|r|n|cffbc8f8f當你進行戰鬥時會在身邊跳出你所受傷害的數字。|r
+## SavedVariables: CombatIndicator_Config
+
+CombatIndicator.xml

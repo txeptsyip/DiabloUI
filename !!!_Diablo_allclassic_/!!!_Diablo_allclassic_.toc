@@ -1,0 +1,17 @@
+## Interface: 11509, 20506, 38002, 50504
+## Category: !!! DiabloUI
+## Title: !!! Diablo_Orbs
+## Version: AC-1.0.11
+## SavedVariables: Diablo_DB_GLOB
+## SavedVariablesPerCharacter: Diablo_DB_CHAR
+##[AllowLoadGameType vanilla, tbc, wrath, cata, mists, mainline]
+
+oUF_lite.xml
+oUF_modules\oUF_CustomAbsorb.lua [AllowLoadGameType mists]
+oUF_modules\oUF_DebuffHighlight.lua [AllowLoadGameType tbc, wrath, mists]
+oUF_modules\oUF_Dispellable.lua [AllowLoadGameType mists]
+oUF_modules\oUF_Smooth.lua
+#oUF_modules\oUF_TotalAbsorb.lua
+oUF_modules\oUF_Totemsac.lua [AllowLoadGameType vanilla, wrath]
+
+units\load+.xml

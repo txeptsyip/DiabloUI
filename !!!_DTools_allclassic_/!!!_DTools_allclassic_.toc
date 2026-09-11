@@ -1,0 +1,40 @@
+﻿## Interface: 11509, 20506, 38002, 50504
+## Category: !!! DiabloUI
+## Title: !!! Diablo_Tools
+## Version: AC-1.0.11
+## SavedVariables: DToolsDB_GLOB
+## SavedVariablesPerCharacter: DToolsDB_CHAR
+##[AllowLoadGameType vanilla, tbc, wrath, cata, mists, mainline]
+
+
+Localization.lua
+
+Config.lua
+CustomClassColors.lua
+
+ActionBars.lua
+ActionTheme.lua
+CastingBar.lua
+ToolTips.lua
+UnitFrames.lua
+
+InfoStringVanilla.lua [AllowLoadGameType vanilla]
+InfoStringTbc.lua [AllowLoadGameType tbc]
+InfoStringWrath.lua [AllowLoadGameType wrath]
+InfoStringMists.lua [AllowLoadGameType mists]
+
+Other.lua
+Modules.lua
+
+#Script file="RaidManager.lua
+
+SetAddon.lua
+SetCVar.lua
+UISet.lua
+
+Chat\Chat.xml
+CombatIndicator\CombatIndicator.xml
+
+FrameMover.lua
+
+Compatibility.lua
